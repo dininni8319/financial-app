@@ -1,7 +1,7 @@
 <h1>Project Title: Finance App</h1>
 
-To run the Frontend, enter the cilent folder and run this command: pnpm run dev <br/>
-To run the Backend, enter the cilent folder and run this command: npm run dev <br/>
+To run the Frontend, enter the client folder and run this command: <b>pnpm run dev</b> <br/>
+To run the Backend, enter the server folder and run this command: <b>npm run dev</b><br/>
 <h3>Packages:</h3>
 <ul>
    Start a React-Typescript project with Vite<br/>
