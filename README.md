@@ -41,7 +41,6 @@ Create an eslintrc.json file configuration <br/>
 
   <li>'npm install --save-dev' ---> adds the package into <li>
   <li>the devDependencies</li>
-  
 </ul>
 
 <h2>Full-Stack Developer ___ <span>Salvatore Dininni</span></h2>
