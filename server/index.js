@@ -7,9 +7,12 @@ import dotenv from 'dotenv'
 import helmet from 'helmet'
 import kpiRoutes from "./routes/kpi.js"
 import productsRoutes from './routes/product.js'
+import transationRoutes from "./routes/transaction.js"
+import Transaction from "./models/Transaction.js"
 import Product from "./models/Product.js"
 import KPI from "./models/KPI.js"
-import { kpis, products } from "./data/data.js"
+import { kpis, products, transactions } from "./data/data.js"
+
 
 //COFIGURATIONS
 dotenv.config()
@@ -26,6 +29,7 @@ app.use(cors())
 
 app.use("/kpi", kpiRoutes)
 app.use("/product", productsRoutes)
+app.use("/transaction", transationRoutes)
 // MONGOOSE SETUP
 const PORT = process.env.PORT || 9000
 
@@ -39,6 +43,7 @@ mongoose
     // await mongoose.connection.db.dropDatabase() // here we want to seed the DB, but first we have to drop the DB, to avoid duplicates
     // KPI.insertMany(kpis)
     // Product.insertMany(products)
+    // Transaction.insertMany(transactions)
   })
   .catch((err) => {
     console.log(err);

@@ -17,11 +17,7 @@ import {
   Bar
 } from 'recharts';
 
-interface Props {
-  
-}
-
-const Row1 = (props: Props) => {
+const Row1 = () => {
   const { data } = useGetKpisQuery();
   const { palette } = useTheme()
 
