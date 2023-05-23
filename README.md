@@ -12,7 +12,8 @@ To run the Backend, enter the server folder and run this command: <b>npm run dev
 	→ delete not necessary files<br/>
 	→ npm i react-router-dom boostrap react-boostrap<br/>
   → pnpm i recharts<br/>
-    
+	→ pnpm i regression<br />
+  → pnpm i -D @types/regressions<br/>
   Frontend packages for redux router material ui and more<br/>
 	→ Installing packages pnpm i react-redux @reduxjs/toolkit react-router-dom 
   <br/>

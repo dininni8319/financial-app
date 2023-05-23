@@ -14,7 +14,7 @@ body,
   width: 10px
 }
 
-::-webkit-scrollbar-tract {
+::-webkit-scrollbar-track {
   background: #242427;
 }
 
@@ -22,6 +22,6 @@ body,
   background: #48494e;
 }
 
-::-webkit-scrollbar-tract:hover {
-  background: #48494e;
+::-webkit-scrollbar-track:hover {
+  background: #2a2b2f;
 }
